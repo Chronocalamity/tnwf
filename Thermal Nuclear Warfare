@@ -2,11 +2,11 @@
 
 print "What is your name?"
 name = gets.chomp
-puts "Hello #{name} Would you like to play a game?"
+puts "Greetings Professor #{name}, Shell we play a game?"
 aone = gets.chomp
 
 if aone == "yes" || "Yes"
-    puts "ok #{name} lets play Global Thermal Nuclear Warfare"
+    puts "ok #{name} lets play Global Thermonuclear War"
     puts "
                                   ..-^~~~^-..
                                 .~           ~.
