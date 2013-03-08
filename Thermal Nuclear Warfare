@@ -6,7 +6,7 @@ puts "Hello #{name} Would you like to play a game?"
 aone = gets.chomp
 
 if aone == "yes" || "Yes"
-    puts "ok #{name} lets play Thermal Nuclear Warfare"
+    puts "ok #{name} lets play Global Thermal Nuclear Warfare"
     puts "
                                   ..-^~~~^-..
                                 .~           ~.
