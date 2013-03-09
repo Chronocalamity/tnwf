@@ -1,8 +1,8 @@
 #by chronocalamity
 
 print "What is your name?"
-name = gets.chomp
-puts "Greetings Professor #{name}, Shell we play a game?"
+name = gets.chomp.capitalize
+puts "Greetings Professor #{name}, Shall we play a game?"
 aone = gets.chomp
 
 if aone == "yes" || "Yes"
