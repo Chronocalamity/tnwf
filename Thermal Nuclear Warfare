@@ -24,3 +24,11 @@ elsif aone == "No"
 else
     puts "My Responses are limited please reply with Yes or No"
 end
+
+pgame = gets.chomp!
+
+if pgame == "Global Thermonuclear War"
+    puts "Teh Nukes are incomming"
+else
+    puts "Please type input exactly as you see it"
+end
