@@ -32,3 +32,5 @@ if pgame == "Global Thermonuclear War"
 else
     puts "Please type input exactly as you see it"
 end
+
+stop = gets
