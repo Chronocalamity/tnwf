@@ -6,14 +6,21 @@ puts "Greetings Professor #{name}, Shall we play a game?"
 aone = gets.chomp
 aone.capitalize!
 
-puts aone
+def list
+    puts "Chess"
+    puts "Checkers"
+    puts "Tic-Tac-Toe"
+    puts "Backgammon"
+    puts "Poker"
+    puts "Falkin's Maze"
+    puts "Global Thermonuclear War"
+end
 
 if aone == "Yes"
-    puts "Ok Professor #{name} lets play Global Thermonuclear War."
-    puts "In the end we both lose this game."
-    puts "Good Bye Professor #{name}...forever"
+    puts "Ok Professor #{name} please pick from the following list."
+    puts "#{list}"
 elsif aone == "No"
-    print "well #{name} in the words of a great wise man you are a pussy"
+    puts "Professor #{name} do you not like games?"
 else
-    print "My Responses are limited please reply with Yes or No"
+    puts "My Responses are limited please reply with Yes or No"
 end
