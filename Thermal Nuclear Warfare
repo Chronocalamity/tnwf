@@ -1,27 +1,19 @@
 #by chronocalamity
 
 print "What is your name?"
-name = gets.chomp.capitalize
+name = gets.chomp.capitalize!
 puts "Greetings Professor #{name}, Shall we play a game?"
 aone = gets.chomp
+aone.capitalize!
 
-if aone == "yes" || "Yes"
-    puts "ok #{name} lets play Global Thermonuclear War"
-    puts "
-                                  ..-^~~~^-..
-                                .~           ~.
-                               (;:           :;)
-                                (:           :)
-                                  ':._   _.:'
-                                      | |
-                                    (=====)
-                                      | |
--O-                                   | |
-  \                                   | |
-  /\                               ((/   \))"
-print "You Lose"
-elsif aone == "no" || "No"
-    puts "well #{name} in the words of a great wise man you are a pussy"
+puts aone
+
+if aone == "Yes"
+    puts "Ok Professor #{name} lets play Global Thermonuclear War."
+    puts "In the end we both lose this game."
+    puts "Good Bye Professor #{name}...forever"
+elsif aone == "No"
+    print "well #{name} in the words of a great wise man you are a pussy"
 else
-    puts "SPEAK FUCKING ENGLISH"
+    print "My Responses are limited please reply with Yes or No"
 end
