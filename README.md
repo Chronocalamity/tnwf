@@ -11,3 +11,7 @@ Professor Falkner. The movie is centered around a young hack dialer that hacks i
 panic by activating a nuclear war sim on a global scale.
 
 This program is written in ruby and may not be a exact replica of the war sim.
+This program's licensing and copyright falls under the Pirate's Code(Take it all, And give nothing back) so enjoy.
+If you wish to commit something to this bit of fun, Thanks for the thought. If I don't get to your commit in a timely manner
+its not because I don't like the your face looks. Its most likey because I haven't been on Github since your commit so play it cool.
+I'll get to it eventually. 
